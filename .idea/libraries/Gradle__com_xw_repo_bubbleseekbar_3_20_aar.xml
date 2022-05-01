@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="Gradle: com.xw.repo:bubbleseekbar:3.20@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e11fff8b0cbc4c6235d6216ff62668b8/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/50b88a4d239b2ef1c24dae4ba930c79b/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e11fff8b0cbc4c6235d6216ff62668b8/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e11fff8b0cbc4c6235d6216ff62668b8/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/50b88a4d239b2ef1c24dae4ba930c79b/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/50b88a4d239b2ef1c24dae4ba930c79b/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/50b88a4d239b2ef1c24dae4ba930c79b/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.xw.repo/bubbleseekbar/3.20/9fcafd9da925b786633d8a218b7a7e2fcbbaee50/bubbleseekbar-3.20-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.xw.repo/bubbleseekbar/3.20/583208d421b678c8c6080f54238d7d7a7dbf40fa/bubbleseekbar-3.20-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

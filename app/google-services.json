@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "246941766766",
+    "firebase_url": "https://projektzespolowy2019-585da.firebaseio.com",
+    "project_id": "projektzespolowy2019-585da",
+    "storage_bucket": "projektzespolowy2019-585da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:246941766766:android:87ef2c3ea8bb770868027f",
+        "android_client_info": {
+          "package_name": "aplikacja.projektzespokowy2019"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "246941766766-s1cg37mir54ifma7sfnonhjtt8n2omat.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYZXwfY1VHJ8Z4xXMbgndr5FjkfowJPoc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "246941766766-s1cg37mir54ifma7sfnonhjtt8n2omat.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

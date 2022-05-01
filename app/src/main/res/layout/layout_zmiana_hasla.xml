@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- player_row.xml -->
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:background="?android:attr/selectableItemBackground"
+    card_view:cardCornerRadius="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/nameZmainaHasla"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="144dp"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </android.support.constraint.ConstraintLayout>
+
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/constraintLayoutZmianaHasla"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/editTextZmianaHasla"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Podaj Stare Hasło"
+                android:inputType="textPassword" />
+
+            <Button
+                android:id="@+id/buttonZamianaHasla"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="false"
+                android:text="@string/Dalej"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+        </android.support.constraint.ConstraintLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutZmianaHasla"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone"
+            >
+
+            <EditText
+                android:id="@+id/editTextZmianaHaslaNowe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Podaj Nowe Hasło"
+                android:inputType="textPassword" />
+
+            <EditText
+                android:id="@+id/editTextZmianaHaslaPoprawneNowe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Potwierdź Nowe Hasło"
+                android:inputType="textPassword" />
+
+
+            <Button
+                android:id="@+id/buttonZmienHaslo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Zmień Hasło"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="0dp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

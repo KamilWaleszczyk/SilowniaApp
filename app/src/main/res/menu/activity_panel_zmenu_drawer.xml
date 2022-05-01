@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Moje Konto">
+        <menu>
+            <item
+                android:id="@+id/nav_home"
+                android:icon="@drawable/home_icon"
+                android:title="@string/home" />
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/settings_icon"
+                android:title="@string/settings" />
+        </menu>
+    </item>
+
+
+    <item android:title="Moje Plany">
+        <menu>
+            <item
+                android:id="@+id/nav_dodaj_plan"
+                android:icon="@drawable/ic_dodaj_plan"
+                android:title="@string/dodaj_plan" />
+            <item
+                android:id="@+id/nav_dodaj_cwiczenie"
+                android:icon="@drawable/ic_dodaj"
+                android:title="@string/dodaj_cwiczenie" />
+            <item
+                android:id="@+id/nav_usun_aktywnosc"
+                android:icon="@drawable/ic_usun"
+                android:title="@string/usun_aktywnosc" />
+        </menu>
+    </item>
+
+    <item android:title="Aktywności">
+        <menu>
+            <item
+                android:id="@+id/navWykonajPlan"
+                android:icon="@drawable/ic_wykonajplan"
+                android:title="@string/wykonaj_plan" />
+            <item
+                android:id="@+id/nav_sledzenie"
+                android:icon="@drawable/route_icon"
+                android:title="@string/sledzenie"
+                />
+            <item
+                android:id="@+id/nav_Statystyka"
+                android:icon="@drawable/ic_statystyka"
+                android:title="@string/statystyka" />
+            <item
+                android:id="@+id/nav_Kalendaz"
+                android:icon="@drawable/ic_callendar"
+                android:title="@string/kal" />
+            <item
+                android:id="@+id/nav_MojeZdrowie"
+                android:icon="@drawable/ic_mojezdrowie"
+                android:title="@string/moje_zdrowie"
+                />
+        </menu>
+    </item>
+
+    <item android:title="Inne">
+        <menu>
+            <item
+                android:id="@+id/nav_Wyloguj"
+                android:icon="@drawable/ic_wyloguj"
+                android:title="@string/wyloguj" />
+
+        </menu>
+    </item>
+
+</menu>

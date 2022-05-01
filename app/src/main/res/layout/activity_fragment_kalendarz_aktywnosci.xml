@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollViewKal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearStaty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_margin="20dp"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:background="?android:attr/selectableItemBackground"
+        app:cardBackgroundColor="#4E6069"
+        card_view:cardCornerRadius="15dp">
+
+        <TextView
+            android:id="@+id/textViewRok"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:textSize="20dp" />
+
+        <com.github.sundeepk.compactcalendarview.CompactCalendarView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/compactcalendar_view"
+            android:layout_width="350dp"
+            android:paddingRight="10dp"
+          android:layout_gravity="center"
+            android:paddingLeft="10dp"
+            android:layout_height="200dp"
+            app:compactCalendarTargetHeight="250dp"
+            app:compactCalendarTextSize="12sp"
+            app:compactCalendarTextColor="#fff"
+            app:compactCalendarBackgroundColor="#4E6069"
+            app:compactCalendarCurrentSelectedDayBackgroundColor="#2E393F"
+            app:compactCalendarCurrentDayBackgroundColor="#2E393F"
+            app:compactCalendarMultiEventIndicatorColor="@color/colorGold"
+            />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/CardViewInfo"
+        android:layout_margin="20dp"
+        android:visibility="gone"
+        app:cardBackgroundColor="#4E6069"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:background="?android:attr/selectableItemBackground"
+        card_view:cardCornerRadius="15dp">
+
+
+
+        <LinearLayout
+            android:id="@+id/linearInfo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Informacje"
+                android:textSize="20dp"
+                android:gravity="center_horizontal"/>
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/AktywnoscInfo"
+            android:layout_margin="8dp"
+            android:textSize="16dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/CzasInfo"
+                android:layout_margin="8dp"
+                android:textSize="16dp"/>
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/OdlegloscInfo"
+            android:layout_margin="8dp"
+            android:textSize="16dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/KalorieInfo"
+                android:layout_margin="8dp"
+                android:textSize="16dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/SredniaPredkoscInfo"
+                android:layout_margin="8dp"
+                android:textSize="16dp"/>
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/CardViewMapaaa"
+        android:layout_margin="20dp"
+        android:visibility="gone"
+        app:cardBackgroundColor="#4E6069"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:background="?android:attr/selectableItemBackground"
+        card_view:cardCornerRadius="15dp">
+
+
+        <LinearLayout
+            android:id="@+id/linearMapa"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Trasa"
+                android:textSize="15dp"
+                android:gravity="center_horizontal"/>
+
+            <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:map="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/Mapaa"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                tools:context="com.mycompany.myapp.Views.fragmentSledzenieTrasy" >
+
+
+            </fragment>
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/CardViewWykres"
+        android:layout_margin="20dp"
+        android:visibility="gone"
+        app:cardBackgroundColor="#4E6069"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:background="?android:attr/selectableItemBackground"
+        card_view:cardCornerRadius="15dp">
+
+
+        <LinearLayout
+            android:id="@+id/linearWykres"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Wykres Prędkości"
+                android:textSize="15dp"
+                android:gravity="center_horizontal"/>
+
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/Chart12"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"/>
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+    </LinearLayout>
+    </ScrollView>
+
+
+

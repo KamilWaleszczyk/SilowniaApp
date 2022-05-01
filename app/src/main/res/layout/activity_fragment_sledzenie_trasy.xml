@@ -1,0 +1,187 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto">
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/mapView"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.mycompany.myapp.Views.fragmentSledzenieTrasy" >
+
+        <Button
+            android:id="@+id/btnZakonczSledzenie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_gravity="left|top"
+            android:background="@drawable/button_background_map"
+            android:text="Zakończ"
+            android:textColor="#007fff"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:paddingRight="10dp" />
+
+        <Chronometer
+            android:id="@+id/chronoForRoute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:textColor="#007fff"
+            android:layout_gravity="center|top">
+        </Chronometer>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TextViewOdlegloscNaMapie"
+            android:textSize="20dp"
+            android:textColor="#007fff"
+            android:textAlignment="center"
+            android:layout_gravity="center|bottom"/>
+
+    </fragment>
+
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/TextViewAktywnosci"
+    android:textSize="20dp"
+    android:textStyle="bold"
+    android:textAlignment="center"/>
+
+    <RadioGroup
+        android:id="@+id/radioAktywnosc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal">
+
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wybierz Aktywność"
+            android:textSize="20dp"/>
+
+        <RadioButton
+            android:id="@+id/radioBieganie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Bieganie" />
+
+        <RadioButton
+            android:id="@+id/radioRower"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jazda Rowerem" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnRozpocznijSledzenie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_background"
+        android:text="Rozpocznij"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/CardViewMapaInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:visibility="gone"
+        card_view:cardBackgroundColor="#336065"
+        card_view:cardCornerRadius="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/TextAktywnosc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                tools:layout_editor_absoluteX="2dp" />
+
+            <TextView
+                android:id="@+id/TextCzas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="15dp"
+                android:textAlignment="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                tools:layout_editor_absoluteX="2dp" />
+
+            <TextView
+                android:id="@+id/TextMetry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="15dp"
+                android:textAlignment="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                tools:layout_editor_absoluteX="2dp" />
+
+            <TextView
+                android:id="@+id/TextKalorie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:textSize="15dp"
+                android:textAlignment="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                tools:layout_editor_absoluteX="2dp" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+
+    <Button
+        android:id="@+id/btnZapiszSledzenie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_background"
+        android:text="Zapisz"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</LinearLayout>

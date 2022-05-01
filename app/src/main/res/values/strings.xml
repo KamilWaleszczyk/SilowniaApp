@@ -1,0 +1,299 @@
+<resources>
+    <string name="app_name">Siłownia</string>
+    <string name="title_activity_panel_zmenu">PanelMenuActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="wykonaj_plan">Wykonaj Plan</string>
+    <string name="moje_plany">Moje Plany</string>
+    <string name="moje_zdrowie">Moje Zdrowie</string>
+    <string name="statystyka">Statystyka</string>
+    <string name="wyloguj">Wyloguj</string>
+    <string name="dodaj_plan">Dodaj Plan</string>
+    <string name="dodaj_cwiczenie">Dodaj Ćwiczenie</string>
+    <string name="usun_aktywnosc">Usun Aktywność</string>
+    <string name="home">Home</string>
+    <string name="settings">Ustawienia</string>
+    <string name="nazwa">Nazwa</string>
+    <string name="hintCwiczenie">Podaj nazwe...</string>
+    <string name="hintOpis">Podaj opis...</string>
+    <string name="hintIloscSerii">Od 1 do 10 serii</string>
+    <string name="opis">Opis</string>
+    <string name="ilosc_serii">Podaj ilość serii</string>
+    <string name="dodaj">Dodaj</string>
+    <string name="anuluj">Anuluj</string>
+    <string name="partia_ciala">Partia Ciała</string>
+    <string name="hintPartiaCiala">Wybierz Partie Ciała...</string>
+    <string name="listaCwiczen">Lista Cwiczen</string>
+    <string name="usun">Usuń</string>
+    <string name="czyNapewno">Czy napewno chcesz usunąć to Cwiczenei z listy ?</string>
+    <string name="biceps">Biceps</string>
+    <string name="triceps">Triceps</string>
+    <string name="kaltka">Klatka Piersiowa</string>
+    <string name="brzuch">Brzuch</string>
+    <string name="nogi">Nogi</string>
+    <string name="plecy">Plecy</string>
+    <string name="aktualizacjaWagi">Podaj swoją aktualną wagę</string>7
+    <string name="wprowadzWage">Wprowadz wagę</string>
+    <string name="aktualizuj">Aktualizuj</string>
+    <string name="kliknijCwiczenie">Kliknij aby wybrać Cwiczenie</string>
+    <string name="kliknijPlan">Kliknij aby wybrać Plan</string>
+    <string name="Dalej">Dalej</string>
+    <string name="zakonczTrening">Zakończ Trening</string>
+    <string name="powtorzenia">Powtórzenia</string>
+    <string name="ciezar">Ciężar</string>
+    <string name="error_description">Za dużo znaków</string>
+    <string name="wybPartieCiala">Wybierz Partie Ciała</string>
+    <string name="nazCwicz">Nazwa ćwiczenia...</string>
+    <string name="opis1">Opis...</string>
+    <string name="PodNazwPlanu">Nazwa Planu</string>
+    <string name="strBarki">Barki</string>
+    <string name="strInne">Inne</string>'
+    <string name="strImie">Imie</string>
+    <string name="strWaga">Waga</string>
+    <string name="strWzrost">Wzrost</string>
+    <string name="sledzenie">Sledzenie Trasy</string>
+    <string name="strChart1">Suma ciężaru w ostatnich treningach.</string>
+    <string name="strChart2">Minuty w ostatnich treningach.</string>
+    <string name="strIleCwWysw">"Ile ostatnich planów wyświetlić?"</string>
+    <string name="kal">Kalendarz Aktywności</string>
+    <string name="style_json">
+  [
+  {
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#1d2c4d"
+      }
+    ]
+  },
+  {
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#8ec3b9"
+      }
+    ]
+  },
+  {
+    "elementType": "labels.text.stroke",
+    "stylers": [
+      {
+        "color": "#1a3646"
+      }
+    ]
+  },
+  {
+    "featureType": "administrative.country",
+    "elementType": "geometry.stroke",
+    "stylers": [
+      {
+        "color": "#4b6878"
+      }
+    ]
+  },
+  {
+    "featureType": "administrative.land_parcel",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#64779e"
+      }
+    ]
+  },
+  {
+    "featureType": "administrative.province",
+    "elementType": "geometry.stroke",
+    "stylers": [
+      {
+        "color": "#4b6878"
+      }
+    ]
+  },
+  {
+    "featureType": "landscape.man_made",
+    "elementType": "geometry.stroke",
+    "stylers": [
+      {
+        "color": "#334e87"
+      }
+    ]
+  },
+  {
+    "featureType": "landscape.natural",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#023e58"
+      }
+    ]
+  },
+  {
+    "featureType": "poi",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#283d6a"
+      }
+    ]
+  },
+  {
+    "featureType": "poi",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#6f9ba5"
+      }
+    ]
+  },
+  {
+    "featureType": "poi",
+    "elementType": "labels.text.stroke",
+    "stylers": [
+      {
+        "color": "#1d2c4d"
+      }
+    ]
+  },
+  {
+    "featureType": "poi.park",
+    "elementType": "geometry.fill",
+    "stylers": [
+      {
+        "color": "#023e58"
+      }
+    ]
+  },
+  {
+    "featureType": "poi.park",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#3C7680"
+      }
+    ]
+  },
+  {
+    "featureType": "road",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#304a7d"
+      }
+    ]
+  },
+  {
+    "featureType": "road",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#98a5be"
+      }
+    ]
+  },
+  {
+    "featureType": "road",
+    "elementType": "labels.text.stroke",
+    "stylers": [
+      {
+        "color": "#1d2c4d"
+      }
+    ]
+  },
+  {
+    "featureType": "road.highway",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#2c6675"
+      }
+    ]
+  },
+  {
+    "featureType": "road.highway",
+    "elementType": "geometry.stroke",
+    "stylers": [
+      {
+        "color": "#255763"
+      }
+    ]
+  },
+  {
+    "featureType": "road.highway",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#b0d5ce"
+      }
+    ]
+  },
+  {
+    "featureType": "road.highway",
+    "elementType": "labels.text.stroke",
+    "stylers": [
+      {
+        "color": "#023e58"
+      }
+    ]
+  },
+  {
+    "featureType": "transit",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#98a5be"
+      }
+    ]
+  },
+  {
+    "featureType": "transit",
+    "elementType": "labels.text.stroke",
+    "stylers": [
+      {
+        "color": "#1d2c4d"
+      }
+    ]
+  },
+  {
+    "featureType": "transit.line",
+    "elementType": "geometry.fill",
+    "stylers": [
+      {
+        "color": "#283d6a"
+      }
+    ]
+  },
+  {
+    "featureType": "transit.station",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#3a4762"
+      }
+    ]
+  },
+  {
+    "featureType": "water",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#0e1626"
+      }
+    ]
+  },
+  {
+    "featureType": "water",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#4e6d70"
+      }
+    ]
+  }
+]
+  </string>
+
+</resources>

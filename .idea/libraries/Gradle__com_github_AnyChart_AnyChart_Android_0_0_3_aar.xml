@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.AnyChart:AnyChart-Android:0.0.3@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6aec7972246a5f1f8b81ec596f3b2e10/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6aec7972246a5f1f8b81ec596f3b2e10/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/51151f9fcc96ee4f9554980829fc4b50/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/51151f9fcc96ee4f9554980829fc4b50/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/51151f9fcc96ee4f9554980829fc4b50/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.AnyChart/AnyChart-Android/0.0.3/1b8719587c40f338ca0f03d5de5bca1c01f35163/AnyChart-Android-0.0.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.AnyChart/AnyChart-Android/0.0.3/f274cb105a2c957726b3d6563873de7dbdda7ec8/AnyChart-Android-0.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
