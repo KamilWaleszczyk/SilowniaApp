@@ -5,10 +5,11 @@ An android app for people who exercise. Allows you to create your own exercises 
 ## Introduction
 
 The application is designed for physically active people. It allows you to use ready-made training plans and ready-made exercises.
-We also get the ability to create our own plans and exercises. With the help of history, we can track our training progress. 
-We will also get statistics from our workouts if we use the app while running or cycling.
+You also get the ability to create our own plans and exercises. With the help of history, we can track our training progress. 
+You will also get statistics from our workouts if you use the app while running or cycling.
 
 ### all features with screenshots
+
 
 
 
